@@ -64,7 +64,7 @@ async def _(event):
 @register(outgoing=True, pattern="^.sauce$")
 async def source(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit("https://github.com/Yasir-siddiqui/Userbot/")
+        await e.edit("https://github.com/Psuraj61/userbutt")
 
 @register(outgoing=True, pattern="^.readme$")
 async def reedme(e):
